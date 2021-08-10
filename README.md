@@ -20,19 +20,19 @@ $ pnpm install --dev minimal-tauri-cli
 
 # Usage
 
-## Example syntax:
+### Example syntax:
 
 ```
 $ pnpm tauri dev
 ```
 
-## To forward arguments like `--debug` you might need to prefix them with an extra `--`:
+### To forward arguments like `--debug` you might need to prefix them with an extra `--`:
 
 ```
 $ pnpm tauri build -- --debug
 ```
 
-## `tauri help`:
+### `tauri help`:
 
 ```
 $ pnpm tauri help
