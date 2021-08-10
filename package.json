@@ -1,0 +1,26 @@
+{
+    "name": "minimal-tauri-cli",
+    "version": "1.0.0-beta.5",
+    "description": "Minimal wrapper for tauri's rust-based cli.",
+    "bin": {
+        "tauri": "./index.js"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FabianLars/minimal-tauri-cli.git"
+    },
+    "keywords": [
+        "tauri",
+        "cli"
+    ],
+    "author": "FabianLars",
+    "license": "Apache-2.0 OR MIT",
+    "bugs": {
+        "url": "https://github.com/FabianLars/minimal-tauri-cli/issues"
+    },
+    "homepage": "https://github.com/FabianLars/minimal-tauri-cli#readme"
+}
