@@ -33,6 +33,8 @@ const main = async () => {
         const file = fs
             .createWriteStream(targetPath)
             .on('finish', () => {
+                fs.chmodSync(targetPath, 0o700);
+
                 file.close(() => {
                     const child = spawn(targetPath, ['tauri', ...args], {
                         cwd: process.cwd(),
