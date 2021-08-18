@@ -1,6 +1,6 @@
 {
     "name": "minimal-tauri-cli",
-    "version": "0.0.0-beta.6",
+    "version": "1.0.0-beta.7",
     "description": "Minimal wrapper for tauri's rust-based cli.",
     "bin": {
         "tauri": "./index.js"
