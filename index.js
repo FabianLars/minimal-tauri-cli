@@ -25,7 +25,7 @@ const main = async () => {
             throw Error('Unsupported platform');
         }
 
-        let url = `https://github.com/tauri-apps/binary-releases/releases/download/tauri-cli-v${version}/tauri-cli_${platform}${extension}`;
+        let url = `https://github.com/tauri-apps/binary-releases/releases/download/tauri-cli-v1.0.0-beta.6/tauri-cli_${platform}${extension}`;
 
         console.log('Downloading Rust CLI...');
 

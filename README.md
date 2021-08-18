@@ -57,6 +57,7 @@ SUBCOMMANDS:
 
 -   Conflicts with `@tauri-apps/cli`.
 -   Might have version mismatches with `@tauri-apps/cli`, because `minimal-tauri-cli`'s version is synced with its rust-based counterpart, see: https://github.com/tauri-apps/tauri/tree/dev/tooling/cli.rs
+-   tauri-cli's version `1.0.0-beta.6` is wrapped in `0.0.0-beta.6`, because i had to publish it twice due to missing file permissions :(
 -   Doesn't support `tauri icon` and `tauri deps` as long as they are not provided by tauri's rust-based cli.
 -   There is only a bare minimum of error handling implemented.
 -   The download function is pretty primitive and might fail on complex network setups.
