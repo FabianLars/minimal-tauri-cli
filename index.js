@@ -31,10 +31,8 @@ const main = async () => {
 
         fs.mkdirSync(`${__dirname}/bin`, { recursive: true });
         const file = fs
-            .createWriteStream(targetPath)
+            .createWriteStream(targetPath, { mode: 0o700 })
             .on('finish', () => {
-                fs.chmodSync(targetPath, 0o700);
-
                 file.close(() => {
                     const child = spawn(targetPath, ['tauri', ...args], {
                         cwd: process.cwd(),
