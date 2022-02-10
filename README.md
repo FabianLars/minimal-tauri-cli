@@ -1,3 +1,7 @@
+# DEPRECATED
+
+We rewrote `@tauri-apps/cli` with napi-rs and removed the icon command. Therefore it got rid of all the dependency bloat rendering `minimal-tauri-cli` useless, especially since we don't plan to release on https://github.com/tauri-apps/binary-releases anymore.
+
 # minimal-tauri-cli
 
 A minimal wrapper for a prebuilt version of tauri's cli, without any dependencies. Initially created for CI/CD to reduce installation time and size of the node_modules/ folder.
